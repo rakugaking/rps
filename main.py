@@ -14,3 +14,10 @@ if player not in moves:
     exit()
 
 print(f"Computer choose {cpu}")
+
+if cpu == player:
+    print("It's a tie")
+elif moves[player] == cpu:
+    print("You win")
+else:
+    print("You loose") 
